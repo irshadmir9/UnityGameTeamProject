@@ -119,7 +119,11 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
+<<<<<<< HEAD
   controlID: 101
+=======
+  controlID: 39
+>>>>>>> 08b84293950301239b6683d1132fefe4b7db21ae
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -187,7 +191,11 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD
     width: 363
+=======
+    width: 362
+>>>>>>> 08b84293950301239b6683d1132fefe4b7db21ae
     height: 665
   m_MinSize: {x: 201, y: 221}
   m_MaxSize: {x: 4001, y: 4021}
@@ -211,9 +219,15 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 363
     y: 0
     width: 1103
+=======
+    x: 362
+    y: 0
+    width: 1104
+>>>>>>> 08b84293950301239b6683d1132fefe4b7db21ae
     height: 665
   m_MinSize: {x: 102, y: 121}
   m_MaxSize: {x: 4002, y: 4021}
@@ -299,8 +313,13 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 363
+<<<<<<< HEAD
     y: 73
     width: 1101
+=======
+    y: 19
+    width: 1102
+>>>>>>> 08b84293950301239b6683d1132fefe4b7db21ae
     height: 644
   m_SerializedDataModeController:
     m_DataMode: 0
@@ -963,8 +982,13 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
+<<<<<<< HEAD
     y: 73
     width: 362
+=======
+    y: 19
+    width: 361
+>>>>>>> 08b84293950301239b6683d1132fefe4b7db21ae
     height: 644
   m_SerializedDataModeController:
     m_DataMode: 0
@@ -982,7 +1006,11 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 36a40000
       m_LastClickedID: 0
+<<<<<<< HEAD
       m_ExpandedIDs: b28cffff
+=======
+      m_ExpandedIDs: a68cffff
+>>>>>>> 08b84293950301239b6683d1132fefe4b7db21ae
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1201,7 +1229,11 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
+<<<<<<< HEAD
     y: 738
+=======
+    y: 684
+>>>>>>> 08b84293950301239b6683d1132fefe4b7db21ae
     width: 1465
     height: 261
   m_SerializedDataModeController:
@@ -1226,7 +1258,12 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
+<<<<<<< HEAD
     - Packages
+=======
+    - Assets/Sprites/craftpix-net-965049-free-industrial-zone-tileset-pixel-art/1
+      Tiles
+>>>>>>> 08b84293950301239b6683d1132fefe4b7db21ae
     m_Globs: []
     m_ProductIds: 
     m_AnyWithAssetOrigin: 0
@@ -1236,6 +1273,7 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
+<<<<<<< HEAD
   - Packages
   m_LastFoldersGridSize: -1
   m_LastProjectPath: E:\Group-Project-Irshad-Adarsh-Zain\Escape Chernobyl
@@ -1246,6 +1284,19 @@ MonoBehaviour:
     m_SelectedIDs: ffffff7f
     m_LastClickedID: 2147483647
     m_ExpandedIDs: 00000000ee98000000ca9a3b
+=======
+  - Assets/Sprites/craftpix-net-965049-free-industrial-zone-tileset-pixel-art/1 Tiles
+  m_LastFoldersGridSize: -1
+  m_LastProjectPath: C:\Users\M1002494\OneDrive - Katy Independent School District\Group-Project-Irshad-Adarsh-Zain\Escape
+    Chernobyl
+  m_LockTracker:
+    m_IsLocked: 0
+  m_FolderTreeState:
+    scrollPos: {x: 0, y: 82.20001}
+    m_SelectedIDs: 7aaf0000
+    m_LastClickedID: 44922
+    m_ExpandedIDs: 00000000b6850000
+>>>>>>> 08b84293950301239b6683d1132fefe4b7db21ae
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1262,7 +1313,7 @@ MonoBehaviour:
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
       m_TrimLeadingAndTrailingWhitespace: 0
-      m_ClientGUIView: {fileID: 10}
+      m_ClientGUIView: {fileID: 0}
     m_SearchString: 
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
@@ -1274,7 +1325,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 
+    m_ExpandedIDs: 00000000b6850000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1328,7 +1379,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 0}
+    m_ScrollPosition: {x: 0, y: 365}
     m_GridSize: 64
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 207
@@ -1389,8 +1440,13 @@ MonoBehaviour:
     m_TextWithWhitespace: "Inspector\u200B"
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 1466
     y: 73
+=======
+    x: 1467
+    y: 19
+>>>>>>> 08b84293950301239b6683d1132fefe4b7db21ae
     width: 453
     height: 926
   m_SerializedDataModeController:

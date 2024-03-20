@@ -250,7 +250,13 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Angry_0: 621222158458474870
+      Angry_1: 6811600293869826227
+      Angry_2: -6947538433012252695
+      Angry_3: 2416616704044797164
+      Angry_4: 3495970692796344209
+      Angry_5: -3520814009680097342
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

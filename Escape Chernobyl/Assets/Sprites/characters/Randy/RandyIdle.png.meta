@@ -250,7 +250,13 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      RandyIdle_0: -3038702417949091291
+      RandyIdle_1: -5397101761458161739
+      RandyIdle_2: 151096576605523233
+      RandyIdle_3: 4015485833055202180
+      RandyIdle_4: 961216895300364300
+      RandyIdle_5: 280822461871528957
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -11,6 +11,7 @@ public class PlayerMove : MonoBehaviour
     private Rigidbody2D rb2d;
 
     public Animator animator;
+    public bool isJumping = false;
  
     // Start is called before the first frame update
     void Start()
@@ -29,10 +30,34 @@ public class PlayerMove : MonoBehaviour
 
         animator.SetFloat("Speed", Mathf.Abs(moveInput * moveSpeed));
 
+        if (Mathf.Abs(rb2d.velocity.y) > 0.001)
+        {
+            isJumping = true;
+        }else
+        {
+            isJumping = false;
+        }
+
         if (Input.GetKeyDown(KeyCode.Space) && Mathf.Abs(rb2d.velocity.y) < 0.001)
         {
             rb2d.AddForce(new Vector2(0, jumpForce), ForceMode2D.Impulse);
-            animator.SetBool("IsJumping", true);
+        }
+
+        if (isJumping)
+        {
+            animator.SetBool("isJumping", true);
+        } else
+        {
+            animator.SetBool("isJumping", false);
+        }
+
+        if (moveInput < 0)
+        {
+            transform.localScale = new Vector3(-4,4,4);
+        }
+        if(moveInput > 0)
+        {
+            transform.localScale = new Vector3(4, 4, 4);
         }
     }
 }

@@ -32,6 +32,7 @@ public class PlayerMove : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space) && Mathf.Abs(rb2d.velocity.y) < 0.001)
         {
             rb2d.AddForce(new Vector2(0, jumpForce), ForceMode2D.Impulse);
+            animator.SetBool("IsJumping", true);
         }
     }
 }

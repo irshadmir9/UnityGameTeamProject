@@ -13,7 +13,7 @@ public class PlayerMove : MonoBehaviour
     public Animator animator;
     public bool isJumping = false;
 
-    Vector2 lookDirection = new Vector2(1, 0);
+
 
     float horizontal;
     float vertical;
@@ -32,15 +32,12 @@ public class PlayerMove : MonoBehaviour
 
         Vector2 move = new Vector2(horizontal, vertical);
 
-        if (!Mathf.Approximately(move.x, 0.0f) || !Mathf.Approximately(move.y, 0.0f))
-        {
-            lookDirection.Set(move.x, move.y);
-            lookDirection.Normalize();
-        }
+
+
 
         float moveInput = Input.GetAxisRaw("Horizontal");
         transform.position += new Vector3(moveInput, 0, 0) * moveSpeed * Time.deltaTime;
-        
+
 
 
 
@@ -49,7 +46,7 @@ public class PlayerMove : MonoBehaviour
         if (Mathf.Abs(rb2d.velocity.y) > 0.001)
         {
             isJumping = true;
-        }else
+        } else
         {
             isJumping = false;
         }
@@ -69,21 +66,22 @@ public class PlayerMove : MonoBehaviour
 
         if (moveInput < 0)
         {
-            transform.localScale = new Vector3(-4,4,4);
+            transform.localScale = new Vector3(-4, 4, 4);
         }
-        if(moveInput > 0)
+        if (moveInput > 0)
         {
             transform.localScale = new Vector3(4, 4, 4);
         }
 
-        if (Input.GetKeyDown(KeyCode.X))
+        if (Input.GetKey(KeyCode.UpArrow))
         {
-            Debug.Log("hi");
-            RaycastHit2D hit = Physics2D.Raycast(rb2d.position + Vector2.up * 0.2f, lookDirection, 1.5f, LayerMask.GetMask("NPC"));
-            if (hit.collider != null)
-            {
-                Debug.Log("Raycast has hit the object " + hit.collider.gameObject);
-            }
+            rb2d.gravityScale = 0.5f;
+
         }
+        else
+        {
+            rb2d.gravityScale = 3;
+        }
+       
     }
 }

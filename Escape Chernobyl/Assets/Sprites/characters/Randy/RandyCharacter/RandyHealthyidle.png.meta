@@ -1,0 +1,882 @@
+fileFormatVersion: 2
+guid: 14293fa50b10deb42a033515949796b8
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3727513661786378096
+    second: RandyHealthyidle_0
+  - first:
+      213: 639700707186397556
+    second: RandyHealthyidle_1
+  - first:
+      213: 8757737130056077492
+    second: RandyHealthyidle_2
+  - first:
+      213: 204236440561736033
+    second: RandyHealthyidle_3
+  - first:
+      213: -3780634919065024031
+    second: RandyHealthyidle_4
+  - first:
+      213: -473312391150758011
+    second: RandyHealthyidle_5
+  - first:
+      213: -5231528391514766666
+    second: RandyHealthyidle_6
+  - first:
+      213: 5827378948639525556
+    second: RandyHealthyidle_7
+  - first:
+      213: 2411275285078040968
+    second: RandyHealthyidle_8
+  - first:
+      213: -5630193589575293753
+    second: RandyHealthyidle_9
+  - first:
+      213: -7385437724346471346
+    second: RandyHealthyidle_10
+  - first:
+      213: -6880685295473696468
+    second: RandyHealthyidle_11
+  - first:
+      213: -6573326151609083876
+    second: RandyHealthyidle_12
+  - first:
+      213: 9007198091368695383
+    second: RandyHealthyidle_13
+  - first:
+      213: -4195067293824617357
+    second: RandyHealthyidle_14
+  - first:
+      213: 1439781305178684167
+    second: RandyHealthyidle_15
+  - first:
+      213: -3897323042040142011
+    second: RandyHealthyidle_16
+  - first:
+      213: 1743690580496292115
+    second: RandyHealthyidle_17
+  - first:
+      213: 1917638402353905580
+    second: RandyHealthyidle_18
+  - first:
+      213: 4737009958807382624
+    second: RandyHealthyidle_19
+  - first:
+      213: 7679572875187168875
+    second: RandyHealthyidle_20
+  - first:
+      213: 6510626559580513970
+    second: RandyHealthyidle_21
+  - first:
+      213: 7988221363779909140
+    second: RandyHealthyidle_22
+  - first:
+      213: -2684498766947725764
+    second: RandyHealthyidle_23
+  - first:
+      213: 3852288251151967247
+    second: RandyHealthyidle_24
+  - first:
+      213: 6606825267645019640
+    second: RandyHealthyidle_25
+  - first:
+      213: 6074130959616113370
+    second: RandyHealthyidle_26
+  - first:
+      213: 800195760507238049
+    second: RandyHealthyidle_27
+  - first:
+      213: -7850855337584782517
+    second: RandyHealthyidle_28
+  - first:
+      213: -3898488552048271763
+    second: RandyHealthyidle_29
+  - first:
+      213: -841577998264695254
+    second: RandyHealthyidle_30
+  - first:
+      213: -1390029094531531375
+    second: RandyHealthyidle_31
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: RandyHealthyidle_0
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 677
+        width: 58
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07f413a1de9cab330800000000000000
+      internalID: 3727513661786378096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RandyHealthyidle_1
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 677
+        width: 58
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4715966676ca0e800800000000000000
+      internalID: 639700707186397556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RandyHealthyidle_2
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 676
+        width: 58
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b0dd31f48bb98970800000000000000
+      internalID: 8757737130056077492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RandyHealthyidle_3
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 677
+        width: 58
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1695fd9e5f795d200800000000000000
+      internalID: 204236440561736033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RandyHealthyidle_4
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 677
+        width: 58
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e901bf529c788bc0800000000000000
+      internalID: -3780634919065024031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RandyHealthyidle_5
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 677
+        width: 58
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5871ba153e47e69f0800000000000000
+      internalID: -473312391150758011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RandyHealthyidle_6
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 549
+        width: 58
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b2446f45a0e567b0800000000000000
+      internalID: -5231528391514766666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RandyHealthyidle_7
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 549
+        width: 58
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ba8f3d67420fd050800000000000000
+      internalID: 5827378948639525556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RandyHealthyidle_8
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 549
+        width: 58
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88161c6a812967120800000000000000
+      internalID: 2411275285078040968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RandyHealthyidle_9
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 549
+        width: 58
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c4eea4a2c88dd1b0800000000000000
+      internalID: -5630193589575293753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RandyHealthyidle_10
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 549
+        width: 58
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4c2f89f487a18990800000000000000
+      internalID: -7385437724346471346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RandyHealthyidle_11
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 549
+        width: 58
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c216900ed25e280a0800000000000000
+      internalID: -6880685295473696468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RandyHealthyidle_12
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 420
+        width: 58
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c181e8c21bad6c4a0800000000000000
+      internalID: -6573326151609083876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RandyHealthyidle_13
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 421
+        width: 58
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7568b9121fefffc70800000000000000
+      internalID: 9007198091368695383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RandyHealthyidle_14
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 421
+        width: 58
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37479bec58028c5c0800000000000000
+      internalID: -4195067293824617357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RandyHealthyidle_15
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 421
+        width: 58
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70b7c6108712bf310800000000000000
+      internalID: 1439781305178684167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RandyHealthyidle_16
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 421
+        width: 58
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 547a048975de9e9c0800000000000000
+      internalID: -3897323042040142011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RandyHealthyidle_17
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 421
+        width: 58
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3191da03855d23810800000000000000
+      internalID: 1743690580496292115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RandyHealthyidle_18
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 293
+        width: 58
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cafb3f387f1dc9a10800000000000000
+      internalID: 1917638402353905580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RandyHealthyidle_19
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 293
+        width: 58
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06aa334b57d3db140800000000000000
+      internalID: 4737009958807382624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RandyHealthyidle_20
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 293
+        width: 58
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b66a14487d2539a60800000000000000
+      internalID: 7679572875187168875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RandyHealthyidle_21
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 293
+        width: 58
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b625057c546a5a50800000000000000
+      internalID: 6510626559580513970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RandyHealthyidle_22
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 293
+        width: 58
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 416b947c10ddbde60800000000000000
+      internalID: 7988221363779909140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RandyHealthyidle_23
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 293
+        width: 58
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3e4b14389ebebad0800000000000000
+      internalID: -2684498766947725764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RandyHealthyidle_24
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 165
+        width: 58
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f04e25e01c3167530800000000000000
+      internalID: 3852288251151967247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RandyHealthyidle_25
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 165
+        width: 58
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f57e03939820bb50800000000000000
+      internalID: 6606825267645019640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RandyHealthyidle_26
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 165
+        width: 58
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adafe17fce5ab4450800000000000000
+      internalID: 6074130959616113370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RandyHealthyidle_27
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 165
+        width: 58
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a6bec7fdcdda1b00800000000000000
+      internalID: 800195760507238049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RandyHealthyidle_28
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 165
+        width: 58
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4397448aa82c0390800000000000000
+      internalID: -7850855337584782517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RandyHealthyidle_29
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 165
+        width: 58
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6e5c362159c5e9c0800000000000000
+      internalID: -3898488552048271763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RandyHealthyidle_30
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 37
+        width: 58
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2606aaf44d1254f0800000000000000
+      internalID: -841577998264695254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RandyHealthyidle_31
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 36
+        width: 58
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19d7df837ef95bce0800000000000000
+      internalID: -1390029094531531375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

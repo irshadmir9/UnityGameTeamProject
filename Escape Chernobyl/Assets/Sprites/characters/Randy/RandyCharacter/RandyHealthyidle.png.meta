@@ -874,7 +874,39 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      RandyHealthyidle_0: 3727513661786378096
+      RandyHealthyidle_1: 639700707186397556
+      RandyHealthyidle_10: -7385437724346471346
+      RandyHealthyidle_11: -6880685295473696468
+      RandyHealthyidle_12: -6573326151609083876
+      RandyHealthyidle_13: 9007198091368695383
+      RandyHealthyidle_14: -4195067293824617357
+      RandyHealthyidle_15: 1439781305178684167
+      RandyHealthyidle_16: -3897323042040142011
+      RandyHealthyidle_17: 1743690580496292115
+      RandyHealthyidle_18: 1917638402353905580
+      RandyHealthyidle_19: 4737009958807382624
+      RandyHealthyidle_2: 8757737130056077492
+      RandyHealthyidle_20: 7679572875187168875
+      RandyHealthyidle_21: 6510626559580513970
+      RandyHealthyidle_22: 7988221363779909140
+      RandyHealthyidle_23: -2684498766947725764
+      RandyHealthyidle_24: 3852288251151967247
+      RandyHealthyidle_25: 6606825267645019640
+      RandyHealthyidle_26: 6074130959616113370
+      RandyHealthyidle_27: 800195760507238049
+      RandyHealthyidle_28: -7850855337584782517
+      RandyHealthyidle_29: -3898488552048271763
+      RandyHealthyidle_3: 204236440561736033
+      RandyHealthyidle_30: -841577998264695254
+      RandyHealthyidle_31: -1390029094531531375
+      RandyHealthyidle_4: -3780634919065024031
+      RandyHealthyidle_5: -473312391150758011
+      RandyHealthyidle_6: -5231528391514766666
+      RandyHealthyidle_7: 5827378948639525556
+      RandyHealthyidle_8: 2411275285078040968
+      RandyHealthyidle_9: -5630193589575293753
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

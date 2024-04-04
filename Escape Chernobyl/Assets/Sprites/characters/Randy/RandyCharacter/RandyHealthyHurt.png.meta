@@ -298,7 +298,15 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      RandyHealthyHurt_0: 8219718095776056658
+      RandyHealthyHurt_1: 2815401022296556470
+      RandyHealthyHurt_2: -3125203807383534485
+      RandyHealthyHurt_3: 1186340505773221856
+      RandyHealthyHurt_4: -8259847776997974957
+      RandyHealthyHurt_5: 446408927619141064
+      RandyHealthyHurt_6: -7862958219584089931
+      RandyHealthyHurt_7: 1906016786803522321
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

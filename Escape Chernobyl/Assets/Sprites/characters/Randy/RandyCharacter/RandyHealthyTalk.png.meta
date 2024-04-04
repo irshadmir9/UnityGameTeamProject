@@ -250,7 +250,13 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      RandyHealthyTalk_0: -2148280368613665608
+      RandyHealthyTalk_1: -8164540359078858019
+      RandyHealthyTalk_2: -6592765845587514326
+      RandyHealthyTalk_3: -1265293343776819885
+      RandyHealthyTalk_4: 7675036385516941742
+      RandyHealthyTalk_5: -972809107318986188
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

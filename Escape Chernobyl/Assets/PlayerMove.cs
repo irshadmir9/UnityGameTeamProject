@@ -75,7 +75,7 @@ public class PlayerMove : MonoBehaviour
 
         if (Input.GetKey(KeyCode.UpArrow))
         {
-            rb2d.gravityScale = 0;
+            rb2d.gravityScale = 0.5f;
 
         }
         else

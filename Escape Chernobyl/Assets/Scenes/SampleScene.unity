@@ -3076,7 +3076,7 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!61 &1189275052
+--- !u!61 &1189275057
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3120,7 +3120,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 0.38, y: 0.68}
+  m_Size: {x: 0.36, y: 0.66}
   m_EdgeRadius: 0
 --- !u!1 &1567580463
 GameObject:
@@ -3423,6 +3423,14 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1939342284629155933, guid: ef6b6baaf61d8c043a57b3b1feca16cd, type: 3}
+      propertyPath: m_BodyType
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1939342284629155933, guid: ef6b6baaf61d8c043a57b3b1feca16cd, type: 3}
+      propertyPath: m_Simulated
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1939342284629155933, guid: ef6b6baaf61d8c043a57b3b1feca16cd, type: 3}
       propertyPath: m_GravityScale
       value: 3
       objectReference: {fileID: 0}
@@ -3436,7 +3444,7 @@ PrefabInstance:
       objectReference: {fileID: 1189275051}
     - target: {fileID: 5918129234747347181, guid: ef6b6baaf61d8c043a57b3b1feca16cd, type: 3}
       propertyPath: jumpForce
-      value: 18
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 5918129234747347181, guid: ef6b6baaf61d8c043a57b3b1feca16cd, type: 3}
       propertyPath: moveSpeed
@@ -3468,7 +3476,7 @@ PrefabInstance:
       addedObject: {fileID: 1189275051}
     - targetCorrespondingSourceObject: {fileID: 5947878328292497383, guid: ef6b6baaf61d8c043a57b3b1feca16cd, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1189275052}
+      addedObject: {fileID: 1189275057}
   m_SourcePrefab: {fileID: 100100000, guid: ef6b6baaf61d8c043a57b3b1feca16cd, type: 3}
 --- !u!1001 &8366590217183926353
 PrefabInstance:

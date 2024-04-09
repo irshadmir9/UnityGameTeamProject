@@ -6,6 +6,7 @@ using TMPro;
 
 public class Dialogue : MonoBehaviour
 {
+    /*
     public GameObject window;
     public List<string> dialogues;
     private int index;
@@ -43,7 +44,7 @@ public class Dialogue : MonoBehaviour
     {
 
     }
-    /*
+   
     IEnumerator Writing()
     {
         string currentDialogue = dialogues[index];

@@ -43,10 +43,12 @@ public class Dialogue : MonoBehaviour
     {
 
     }
-
+    /*
     IEnumerator Writing()
     {
         string currentDialogue = dialogues[index];
         dialogueText.text += currentDialogue[charIndex];
     }
+
+    */
 }

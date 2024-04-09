@@ -6,7 +6,7 @@ using TMPro;
 
 public class Dialogue : MonoBehaviour
 {
-    /*
+    
     public GameObject window;
     public List<string> dialogues;
     private int index;
@@ -14,6 +14,10 @@ public class Dialogue : MonoBehaviour
 
     private bool started;
     public TMP_Text dialogueText;
+
+    public float writingSpeed;
+
+    private bool waitForNext;
 
     private void ToggleWindow(bool show)
     {
@@ -42,14 +46,45 @@ public class Dialogue : MonoBehaviour
 
     public void EndDialogue()
     {
-
+        ToggleWindow(false);
     }
    
     IEnumerator Writing()
     {
         string currentDialogue = dialogues[index];
         dialogueText.text += currentDialogue[charIndex];
+        charIndex++;
+        if (charIndex < currentDialogue.Length)
+        {
+            yield return new WaitForSeconds(writingSpeed);
+            StartCoroutine(Writing());
+        }
+        else
+        {
+            waitForNext = true;
+        }
     }
 
-    */
+    private void Update()
+    {
+        if(!started)
+            return;
+        if(waitForNext && Input.GetKeyDown(KeyCode.LeftArrow))
+        {
+            waitForNext = false;
+            index++;
+            if(index < dialogues.Count)
+            {
+                GetDialogue(index);
+            }
+            else
+            {
+                EndDialogue();
+
+            }
+            
+        }
+    }
+
+
 }

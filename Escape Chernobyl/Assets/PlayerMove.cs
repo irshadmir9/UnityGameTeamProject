@@ -73,9 +73,9 @@ public class PlayerMove : MonoBehaviour
             transform.localScale = new Vector3(4, 4, 4);
         }
 
-        if (Input.GetKey(KeyCode.UpArrow))
+        if (Input.GetKey(KeyCode.UpArrow)&& (rb2d.velocity.y) < 0)
         {
-            rb2d.gravityScale = 0.5f;
+            rb2d.gravityScale = -0.1f;
 
         }
         else

@@ -134,7 +134,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Sample text
+  m_text: 'Sample text Sample text Sample text Sample text Sample text Sample text
+    Sample text Sample text Sample text Sample text '
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -161,7 +162,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 10
+  m_fontSize: 6.45
   m_fontSizeBase: 4
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -303,6 +304,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7774247342310486252}
+  - component: {fileID: 9162504083908496922}
   m_Layer: 0
   m_Name: Dialogue
   m_TagString: Untagged
@@ -326,3 +328,19 @@ Transform:
   - {fileID: 8815454828722696515}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &9162504083908496922
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5317721777689329721}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14515270494207d43a942d74af365444, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  window: {fileID: 696229991480148409}
+  dialogues: []
+  dialogueText: {fileID: 5254860678702970425}
+  writingSpeed: 0.3

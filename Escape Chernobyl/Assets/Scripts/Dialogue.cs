@@ -19,6 +19,11 @@ public class Dialogue : MonoBehaviour
 
     private bool waitForNext;
 
+
+    private void Awake()
+    {
+        ToggleWindow(false);
+    }
     private void ToggleWindow(bool show)
     {
         window.SetActive(show);
@@ -69,7 +74,7 @@ public class Dialogue : MonoBehaviour
     {
         if(!started)
             return;
-        if(waitForNext && Input.GetKeyDown(KeyCode.LeftArrow))
+        if(waitForNext && Input.GetKeyDown(KeyCode.E))
         {
             waitForNext = false;
             index++;

@@ -9,7 +9,7 @@ public class DialogueTrigger : MonoBehaviour
     public Dialogue dialogueScript;
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        Debug.Log("hi");
+        
         if(collision.tag == "Player")
         {
             playerDetected = true;

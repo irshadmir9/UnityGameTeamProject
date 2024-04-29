@@ -51,7 +51,7 @@ public class PlayerMove : MonoBehaviour
             isJumping = false;
         }
 
-        if (Input.GetKeyDown(KeyCode.Space) && Mathf.Abs(rb2d.velocity.y) < 0.001)
+        if (Input.GetKeyDown(KeyCode.UpArrow) && Mathf.Abs(rb2d.velocity.y) < 0.001)
         {
             rb2d.AddForce(new Vector2(0, jumpForce), ForceMode2D.Impulse);
         }
@@ -73,7 +73,7 @@ public class PlayerMove : MonoBehaviour
             transform.localScale = new Vector3(4, 4, 4);
         }
 
-        if (Input.GetKey(KeyCode.UpArrow)&& (rb2d.velocity.y) < 0)
+        if (Input.GetKey(KeyCode.Space)&& (rb2d.velocity.y) < 0)
         {
             rb2d.gravityScale = -0.1f;
 

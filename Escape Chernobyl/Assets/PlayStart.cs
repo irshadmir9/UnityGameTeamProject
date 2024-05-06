@@ -7,7 +7,7 @@ public class PlayStart : MonoBehaviour
 {
     public void OnButtonClick()
     {
-        SceneManager.LoadScene("Level 1");
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 }
 

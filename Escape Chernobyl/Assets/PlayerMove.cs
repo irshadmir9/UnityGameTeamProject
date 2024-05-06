@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerMove : MonoBehaviour
 {
@@ -82,6 +83,13 @@ public class PlayerMove : MonoBehaviour
         {
             rb2d.gravityScale = 3;
         }
-       
+
+        if (Input.GetKey(KeyCode.R))
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+
+        }
+
+
     }
 }

@@ -130,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Google_Chrome_icon_(February_2022).svg_0: -3205874096910022998
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

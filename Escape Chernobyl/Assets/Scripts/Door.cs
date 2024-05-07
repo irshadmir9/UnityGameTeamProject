@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 public class Door : MonoBehaviour
 {
     private bool playerDetected;
+    public AudioSource DoorEnter;
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -13,6 +14,7 @@ public class Door : MonoBehaviour
         if (collision.tag == "Player")
         {
             playerDetected = true;
+            DoorEnter.Play();
         }
 
 
@@ -22,8 +24,9 @@ public class Door : MonoBehaviour
     {
         if (playerDetected && Input.GetKeyDown(KeyCode.Q))
         {
+            
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
-
+            
 
 
         }

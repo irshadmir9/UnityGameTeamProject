@@ -374,6 +374,10 @@ PrefabInstance:
       propertyPath: dialogueScript
       value: 
       objectReference: {fileID: 1738334695}
+    - target: {fileID: 3457985304048289529, guid: dca60a0ffcf0fde43bf4158d4319103d, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: -4156849030744183144, guid: 11fe44edfdb97cb4185cd1500774de42, type: 2}
     - target: {fileID: 5036109392322459436, guid: dca60a0ffcf0fde43bf4158d4319103d, type: 3}
       propertyPath: m_LocalPosition.x
       value: -7.74
@@ -412,6 +416,27 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5036109392322459436, guid: dca60a0ffcf0fde43bf4158d4319103d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7508502965291921148, guid: dca60a0ffcf0fde43bf4158d4319103d, type: 3}
+      propertyPath: m_text
+      value: The reactors had a gross production of 29 billion watts, enough to power
+        a modern car for 551,750 years.
+      objectReference: {fileID: 0}
+    - target: {fileID: 7508502965291921148, guid: dca60a0ffcf0fde43bf4158d4319103d, type: 3}
+      propertyPath: m_fontSize
+      value: 7.15
+      objectReference: {fileID: 0}
+    - target: {fileID: 7508502965291921148, guid: dca60a0ffcf0fde43bf4158d4319103d, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 11fe44edfdb97cb4185cd1500774de42, type: 2}
+    - target: {fileID: 7508502965291921148, guid: dca60a0ffcf0fde43bf4158d4319103d, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: -4156849030744183144, guid: 11fe44edfdb97cb4185cd1500774de42, type: 2}
+    - target: {fileID: 7508502965291921148, guid: dca60a0ffcf0fde43bf4158d4319103d, type: 3}
+      propertyPath: m_hasFontAssetChanged
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -1532,6 +1557,10 @@ PrefabInstance:
       propertyPath: dialogueScript
       value: 
       objectReference: {fileID: 1236783032}
+    - target: {fileID: 3457985304048289529, guid: dca60a0ffcf0fde43bf4158d4319103d, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: -4156849030744183144, guid: 11fe44edfdb97cb4185cd1500774de42, type: 2}
     - target: {fileID: 5036109392322459436, guid: dca60a0ffcf0fde43bf4158d4319103d, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.84154797
@@ -1611,6 +1640,26 @@ PrefabInstance:
     - target: {fileID: 6629109271945729532, guid: dca60a0ffcf0fde43bf4158d4319103d, type: 3}
       propertyPath: m_LocalPosition.y
       value: 1.3649
+      objectReference: {fileID: 0}
+    - target: {fileID: 7508502965291921148, guid: dca60a0ffcf0fde43bf4158d4319103d, type: 3}
+      propertyPath: m_text
+      value: It took 2 days for the soviet union to announce the disaster
+      objectReference: {fileID: 0}
+    - target: {fileID: 7508502965291921148, guid: dca60a0ffcf0fde43bf4158d4319103d, type: 3}
+      propertyPath: m_fontSize
+      value: 8.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7508502965291921148, guid: dca60a0ffcf0fde43bf4158d4319103d, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 11fe44edfdb97cb4185cd1500774de42, type: 2}
+    - target: {fileID: 7508502965291921148, guid: dca60a0ffcf0fde43bf4158d4319103d, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: -4156849030744183144, guid: 11fe44edfdb97cb4185cd1500774de42, type: 2}
+    - target: {fileID: 7508502965291921148, guid: dca60a0ffcf0fde43bf4158d4319103d, type: 3}
+      propertyPath: m_hasFontAssetChanged
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2032,6 +2081,10 @@ PrefabInstance:
       propertyPath: dialogueScript
       value: 
       objectReference: {fileID: 1518452029}
+    - target: {fileID: 3457985304048289529, guid: dca60a0ffcf0fde43bf4158d4319103d, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: -4156849030744183144, guid: 11fe44edfdb97cb4185cd1500774de42, type: 2}
     - target: {fileID: 5036109392322459436, guid: dca60a0ffcf0fde43bf4158d4319103d, type: 3}
       propertyPath: m_LocalPosition.x
       value: -14.398426
@@ -2070,6 +2123,26 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5036109392322459436, guid: dca60a0ffcf0fde43bf4158d4319103d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7508502965291921148, guid: dca60a0ffcf0fde43bf4158d4319103d, type: 3}
+      propertyPath: m_text
+      value: It began operation on May 27th, 1978
+      objectReference: {fileID: 0}
+    - target: {fileID: 7508502965291921148, guid: dca60a0ffcf0fde43bf4158d4319103d, type: 3}
+      propertyPath: m_fontSize
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 7508502965291921148, guid: dca60a0ffcf0fde43bf4158d4319103d, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 11fe44edfdb97cb4185cd1500774de42, type: 2}
+    - target: {fileID: 7508502965291921148, guid: dca60a0ffcf0fde43bf4158d4319103d, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: -4156849030744183144, guid: 11fe44edfdb97cb4185cd1500774de42, type: 2}
+    - target: {fileID: 7508502965291921148, guid: dca60a0ffcf0fde43bf4158d4319103d, type: 3}
+      propertyPath: m_hasFontAssetChanged
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -2277,6 +2350,10 @@ PrefabInstance:
       propertyPath: dialogueScript
       value: 
       objectReference: {fileID: 686434017}
+    - target: {fileID: 3457985304048289529, guid: dca60a0ffcf0fde43bf4158d4319103d, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: -4156849030744183144, guid: 11fe44edfdb97cb4185cd1500774de42, type: 2}
     - target: {fileID: 5036109392322459436, guid: dca60a0ffcf0fde43bf4158d4319103d, type: 3}
       propertyPath: m_LocalPosition.x
       value: 10.4143915
@@ -2315,6 +2392,26 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5036109392322459436, guid: dca60a0ffcf0fde43bf4158d4319103d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7508502965291921148, guid: dca60a0ffcf0fde43bf4158d4319103d, type: 3}
+      propertyPath: m_text
+      value: Nearly 5 milion people live nearby Pripyat
+      objectReference: {fileID: 0}
+    - target: {fileID: 7508502965291921148, guid: dca60a0ffcf0fde43bf4158d4319103d, type: 3}
+      propertyPath: m_fontSize
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 7508502965291921148, guid: dca60a0ffcf0fde43bf4158d4319103d, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 11fe44edfdb97cb4185cd1500774de42, type: 2}
+    - target: {fileID: 7508502965291921148, guid: dca60a0ffcf0fde43bf4158d4319103d, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: -4156849030744183144, guid: 11fe44edfdb97cb4185cd1500774de42, type: 2}
+    - target: {fileID: 7508502965291921148, guid: dca60a0ffcf0fde43bf4158d4319103d, type: 3}
+      propertyPath: m_hasFontAssetChanged
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -2591,6 +2688,30 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1074488038}
     m_Modifications:
+    - target: {fileID: 1090916781840850492, guid: 391074b21edc26346a066cc5671c11ac, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: -4156849030744183144, guid: 11fe44edfdb97cb4185cd1500774de42, type: 2}
+    - target: {fileID: 5254860678702970425, guid: 391074b21edc26346a066cc5671c11ac, type: 3}
+      propertyPath: m_text
+      value: Hey, go grab that crowbar, you'll need it to get the last flag.
+      objectReference: {fileID: 0}
+    - target: {fileID: 5254860678702970425, guid: 391074b21edc26346a066cc5671c11ac, type: 3}
+      propertyPath: m_fontSize
+      value: 9.55
+      objectReference: {fileID: 0}
+    - target: {fileID: 5254860678702970425, guid: 391074b21edc26346a066cc5671c11ac, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 11fe44edfdb97cb4185cd1500774de42, type: 2}
+    - target: {fileID: 5254860678702970425, guid: 391074b21edc26346a066cc5671c11ac, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: -4156849030744183144, guid: 11fe44edfdb97cb4185cd1500774de42, type: 2}
+    - target: {fileID: 5254860678702970425, guid: 391074b21edc26346a066cc5671c11ac, type: 3}
+      propertyPath: m_hasFontAssetChanged
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5317721777689329721, guid: 391074b21edc26346a066cc5671c11ac, type: 3}
       propertyPath: m_Name
       value: Dialogue
@@ -7954,6 +8075,10 @@ PrefabInstance:
       propertyPath: dialogueScript
       value: 
       objectReference: {fileID: 256365030}
+    - target: {fileID: 3457985304048289529, guid: dca60a0ffcf0fde43bf4158d4319103d, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: -4156849030744183144, guid: 11fe44edfdb97cb4185cd1500774de42, type: 2}
     - target: {fileID: 5036109392322459436, guid: dca60a0ffcf0fde43bf4158d4319103d, type: 3}
       propertyPath: m_LocalPosition.x
       value: -17.95
@@ -7992,6 +8117,26 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5036109392322459436, guid: dca60a0ffcf0fde43bf4158d4319103d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7508502965291921148, guid: dca60a0ffcf0fde43bf4158d4319103d, type: 3}
+      propertyPath: m_text
+      value: This reactor; reactor 1 was completed on September 26, 1977
+      objectReference: {fileID: 0}
+    - target: {fileID: 7508502965291921148, guid: dca60a0ffcf0fde43bf4158d4319103d, type: 3}
+      propertyPath: m_fontSize
+      value: 8.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 7508502965291921148, guid: dca60a0ffcf0fde43bf4158d4319103d, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 11fe44edfdb97cb4185cd1500774de42, type: 2}
+    - target: {fileID: 7508502965291921148, guid: dca60a0ffcf0fde43bf4158d4319103d, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: -4156849030744183144, guid: 11fe44edfdb97cb4185cd1500774de42, type: 2}
+    - target: {fileID: 7508502965291921148, guid: dca60a0ffcf0fde43bf4158d4319103d, type: 3}
+      propertyPath: m_hasFontAssetChanged
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []

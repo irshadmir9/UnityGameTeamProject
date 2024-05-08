@@ -7,6 +7,7 @@ public class Door : MonoBehaviour
 {
     private bool playerDetected;
     public AudioSource DoorEnter;
+    public PlayerMove flags;
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -22,13 +23,27 @@ public class Door : MonoBehaviour
 
     private void Update()
     {
-        if (playerDetected && Input.GetKeyDown(KeyCode.Q))
+        if(SceneManager.GetActiveScene().buildIndex>1)
         {
-            
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
-            
+            if (playerDetected && Input.GetKeyDown(KeyCode.Q)&&flags.flag==5)
+            {
+
+                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
 
 
+
+            }
+        } else
+        {
+            if (playerDetected && Input.GetKeyDown(KeyCode.Q))
+            {
+
+                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+
+
+
+            }
         }
+        
     }
 }

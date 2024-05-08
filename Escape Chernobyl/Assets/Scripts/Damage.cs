@@ -9,6 +9,11 @@ public class Damage : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
+        PlayerMove controller = collision.GetComponent<PlayerMove>();
+        if(controller != null)
+        {
+            controller.ChangeHealth(-20);
+        }
 
         if (collision.tag == "Player")
         {

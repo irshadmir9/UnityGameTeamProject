@@ -15,19 +15,52 @@ public class PlayerMove : MonoBehaviour
     public bool isJumping = false;
 
 
+    public Transform projectileSpawnPoint;
+    public GameObject projectilePrefab;
+    public float projectileSpeed = 10;
 
     float horizontal;
     float vertical;
+    public bool crowbar = false;
+    public bool axe = false;
+    public bool hammer = false;
+
+    public int maxHealth = 600;
+    public int currentHealth = 600;
+
+    public int DelayAmount = 1;
+    protected float Timer;
+
+    public int flag;
+    
 
     // Start is called before the first frame update
     void Start()
     {
         rb2d = GetComponent<Rigidbody2D>();
+        if(SceneManager.GetActiveScene().buildIndex == 2)
+        {
+            currentHealth = 600;
+        }
+        else { currentHealth = PlayerPrefs.GetInt("health"); }
+
+        flag = 0;
+        
     }
 
     // Update is called once per frame
     void Update()
     {
+        if(SceneManager.GetActiveScene().buildIndex >= 2)
+        {
+            Timer += Time.deltaTime;
+            if (Timer >= DelayAmount)
+            {
+                Timer = 0f;
+                ChangeHealth(-1);
+            }
+        }
+        
         horizontal = Input.GetAxis("Horizontal");
         vertical = Input.GetAxis("Vertical");
 
@@ -90,6 +123,70 @@ public class PlayerMove : MonoBehaviour
 
         }
 
+        if (Input.GetKeyDown(KeyCode.L) && crowbar)
+        {
+            var projectile = Instantiate(projectilePrefab, projectileSpawnPoint.position, projectileSpawnPoint.rotation);
+            float speed = 0;
+            if(transform.localScale == new Vector3(4, 4, 4))
+            {
+                speed = projectileSpeed;
+            }
+            else { speed = -projectileSpeed; }
 
+            projectile.GetComponent<Rigidbody2D>().velocity = projectileSpawnPoint.right * speed;
+            
+        }
+        if (Input.GetKeyDown(KeyCode.L) && axe)
+        {
+            var projectile = Instantiate(projectilePrefab, projectileSpawnPoint.position, projectileSpawnPoint.rotation);
+            float speed = 0;
+            if (transform.localScale == new Vector3(4, 4, 4))
+            {
+                speed = projectileSpeed;
+            }
+            else { speed = -projectileSpeed; }
+
+            projectile.GetComponent<Rigidbody2D>().velocity = projectileSpawnPoint.right * speed;
+
+        }
+
+        if (Input.GetKeyDown(KeyCode.L) && hammer)
+        {
+            var projectile = Instantiate(projectilePrefab, projectileSpawnPoint.position, projectileSpawnPoint.rotation);
+            float speed = 0;
+            if (transform.localScale == new Vector3(4, 4, 4))
+            {
+                speed = projectileSpeed;
+            }
+            else { speed = -projectileSpeed; }
+
+            projectile.GetComponent<Rigidbody2D>().velocity = projectileSpawnPoint.right * speed;
+
+        }
+
+        if (SceneManager.GetActiveScene().buildIndex >= 2)
+        {
+            PlayerPrefs.SetInt("health", currentHealth);
+        }
+        
+
+    }
+
+    public void setCrowbar(bool c)
+    {
+        crowbar = c;
+    }
+    public void setAxe(bool a)
+    {
+        axe = a;
+    }
+    public void setHammer(bool h)
+    {
+        hammer = h;
+    }
+    public void ChangeHealth(int amount)
+    {
+        currentHealth = Mathf.Clamp(currentHealth + amount, 0, maxHealth);
+        Debug.Log(currentHealth + "/" + maxHealth);
     }
 }

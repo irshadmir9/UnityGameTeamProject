@@ -130,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      crowbar icon_0: -8621689326626198280
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

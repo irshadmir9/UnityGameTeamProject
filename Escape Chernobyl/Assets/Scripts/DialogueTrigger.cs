@@ -7,18 +7,19 @@ public class DialogueTrigger : MonoBehaviour
 {
     private bool playerDetected;
     public Dialogue dialogueScript;
-    public PlayerMove flagcount;
+    public PlayerMove player;
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
+        PlayerMove controller = collision.GetComponent<PlayerMove>();
         
-        if(collision.tag == "Player")
-        {
+        if (collision.tag == "Player")
+        { 
             playerDetected = true;
-            flagcount.flag++;
-        }
 
+        }
         
+
     }
 
     private void OnTriggerExit2D(Collider2D collision)
@@ -33,6 +34,8 @@ public class DialogueTrigger : MonoBehaviour
     {
         if(playerDetected && Input.GetKeyDown(KeyCode.E))
         {
+            player.flag++;
+            Debug.Log(player.flag); 
             dialogueScript.StartDialogue();
         }
     }

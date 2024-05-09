@@ -7,10 +7,20 @@ public class Door : MonoBehaviour
 {
     private bool playerDetected;
     public AudioSource DoorEnter;
-    public PlayerMove flags;
+
+
+    public bool enough = false;
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
+        PlayerMove controller = collision.GetComponent<PlayerMove>();
+        if (controller != null)
+        {
+            if (controller.flag > 5)
+            {
+                enough = true;
+            }
+        }
 
         if (collision.tag == "Player")
         {
@@ -25,7 +35,7 @@ public class Door : MonoBehaviour
     {
         if(SceneManager.GetActiveScene().buildIndex>1)
         {
-            if (playerDetected && Input.GetKeyDown(KeyCode.Q)&&flags.flag==5)
+            if (playerDetected && Input.GetKeyDown(KeyCode.Q)&&enough)
             {
 
                 SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);

@@ -194,6 +194,19 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6915643035512313567, guid: dca60a0ffcf0fde43bf4158d4319103d, type: 3}
+      propertyPath: dialogues.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6915643035512313567, guid: dca60a0ffcf0fde43bf4158d4319103d, type: 3}
+      propertyPath: 'dialogues.Array.data[0]'
+      value: 'About 5 thousand people still work in the Exclusion Zone:'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6915643035512313567, guid: dca60a0ffcf0fde43bf4158d4319103d, type: 3}
+      propertyPath: 'dialogues.Array.data[1]'
+      value: 'these are mainly field guard, firefighters protecting the territory
+        from forest fires and infrastructure workers.  '
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -265,6 +278,19 @@ PrefabInstance:
     - target: {fileID: 5036109392322459436, guid: dca60a0ffcf0fde43bf4158d4319103d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6915643035512313567, guid: dca60a0ffcf0fde43bf4158d4319103d, type: 3}
+      propertyPath: dialogues.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6915643035512313567, guid: dca60a0ffcf0fde43bf4158d4319103d, type: 3}
+      propertyPath: 'dialogues.Array.data[0]'
+      value: The first country to officially register the Chernobyl disaster was
+        Sweden.
+      objectReference: {fileID: 0}
+    - target: {fileID: 6915643035512313567, guid: dca60a0ffcf0fde43bf4158d4319103d, type: 3}
+      propertyPath: 'dialogues.Array.data[1]'
+      value: 'They recorded the presence of radioactive neptunium-239 in the atmosphere. '
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -462,7 +488,6 @@ GameObject:
   - component: {fileID: 166073286}
   - component: {fileID: 166073285}
   - component: {fileID: 166073284}
-  - component: {fileID: 166073283}
   m_Layer: 0
   m_Name: New Piskel_0
   m_TagString: Untagged
@@ -470,20 +495,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &166073283
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 166073282}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f3d8952c6fd676746baffee25e69356d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  DoorEnter: {fileID: 0}
-  enough: 0
 --- !u!61 &166073284
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -895,7 +906,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1212874244702484942, guid: ef6b6baaf61d8c043a57b3b1feca16cd, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -5.8
+      value: -22.62
       objectReference: {fileID: 0}
     - target: {fileID: 1212874244702484942, guid: ef6b6baaf61d8c043a57b3b1feca16cd, type: 3}
       propertyPath: m_LocalPosition.y
@@ -1584,6 +1595,20 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6915643035512313567, guid: dca60a0ffcf0fde43bf4158d4319103d, type: 3}
+      propertyPath: dialogues.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6915643035512313567, guid: dca60a0ffcf0fde43bf4158d4319103d, type: 3}
+      propertyPath: 'dialogues.Array.data[0]'
+      value: 'By 1990 the number of thyroid cancer cases among children in Belarus
+        increased by 33 times. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 6915643035512313567, guid: dca60a0ffcf0fde43bf4158d4319103d, type: 3}
+      propertyPath: 'dialogues.Array.data[1]'
+      value: 'Also, in January 1987, an unusually large number of cases of Down Syndrome
+        was reported in Belarus '
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1984,6 +2009,24 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6915643035512313567, guid: dca60a0ffcf0fde43bf4158d4319103d, type: 3}
+      propertyPath: dialogues.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6915643035512313567, guid: dca60a0ffcf0fde43bf4158d4319103d, type: 3}
+      propertyPath: 'dialogues.Array.data[0]'
+      value: Visits to the Exclusion Zone are authorized mainly for scientists and
+        the press.
+      objectReference: {fileID: 0}
+    - target: {fileID: 6915643035512313567, guid: dca60a0ffcf0fde43bf4158d4319103d, type: 3}
+      propertyPath: 'dialogues.Array.data[1]'
+      value: 'However, tour operators also began to organize short tours to the Zone. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 6915643035512313567, guid: dca60a0ffcf0fde43bf4158d4319103d, type: 3}
+      propertyPath: 'dialogues.Array.data[2]'
+      value: ' According to the Forbes magazine, the territory of the Chernobyl NPP
+        is named one of the most unusual places for tourism on the planet. '
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2056,6 +2099,20 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6915643035512313567, guid: dca60a0ffcf0fde43bf4158d4319103d, type: 3}
+      propertyPath: dialogues.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6915643035512313567, guid: dca60a0ffcf0fde43bf4158d4319103d, type: 3}
+      propertyPath: 'dialogues.Array.data[0]'
+      value: After the inhabitants of Pripyat left because of the high radiation
+        levels, wolves, wild horses, and other animals took possession of the premises.
+      objectReference: {fileID: 0}
+    - target: {fileID: 6915643035512313567, guid: dca60a0ffcf0fde43bf4158d4319103d, type: 3}
+      propertyPath: 'dialogues.Array.data[1]'
+      value: 'But we are far from a return of nature to the wild: some insects, birds
+        or small mammals have disappeared or are very rare. '
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2126,19 +2183,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9162504083908496922, guid: 391074b21edc26346a066cc5671c11ac, type: 3}
       propertyPath: dialogues.Array.size
-      value: 4
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 9162504083908496922, guid: 391074b21edc26346a066cc5671c11ac, type: 3}
       propertyPath: 'dialogues.Array.data[0]'
-      value: Hey friend, this is a tutorial.
+      value: Hello you need to equip the hammer to break the obstacles
       objectReference: {fileID: 0}
     - target: {fileID: 9162504083908496922, guid: 391074b21edc26346a066cc5671c11ac, type: 3}
       propertyPath: 'dialogues.Array.data[1]'
-      value: You will need to escape Chernobyl.
+      value: Watch out for the moving radioactive projectiles
       objectReference: {fileID: 0}
     - target: {fileID: 9162504083908496922, guid: 391074b21edc26346a066cc5671c11ac, type: 3}
       propertyPath: 'dialogues.Array.data[2]'
-      value: There will be multiple checkpoints in each level.
+      value: Go through all the check points and escape chernobyl.
       objectReference: {fileID: 0}
     - target: {fileID: 9162504083908496922, guid: 391074b21edc26346a066cc5671c11ac, type: 3}
       propertyPath: 'dialogues.Array.data[3]'

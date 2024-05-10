@@ -2944,7 +2944,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9162504083908496922, guid: 391074b21edc26346a066cc5671c11ac, type: 3}
       propertyPath: dialogues.Array.size
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 9162504083908496922, guid: 391074b21edc26346a066cc5671c11ac, type: 3}
       propertyPath: 'dialogues.Array.data[0]'
@@ -2960,7 +2960,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9162504083908496922, guid: 391074b21edc26346a066cc5671c11ac, type: 3}
       propertyPath: 'dialogues.Array.data[3]'
-      value: 
+      value: Hold space to glide this will be very important
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

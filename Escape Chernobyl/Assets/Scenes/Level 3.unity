@@ -519,7 +519,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6915643035512313567, guid: dca60a0ffcf0fde43bf4158d4319103d, type: 3}
       propertyPath: dialogues.Array.size
-      value: 3
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6915643035512313567, guid: dca60a0ffcf0fde43bf4158d4319103d, type: 3}
+      propertyPath: 'dialogues.Array.data[0]'
+      value: 'The complete decay of the last radioactive element (plutonium-239)
+        in contaminated areas will occur in 26486. '
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1065,6 +1070,20 @@ PrefabInstance:
     - target: {fileID: 5421525384183408681, guid: dca60a0ffcf0fde43bf4158d4319103d, type: 3}
       propertyPath: m_LocalPosition.y
       value: -0.45
+      objectReference: {fileID: 0}
+    - target: {fileID: 6915643035512313567, guid: dca60a0ffcf0fde43bf4158d4319103d, type: 3}
+      propertyPath: dialogues.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6915643035512313567, guid: dca60a0ffcf0fde43bf4158d4319103d, type: 3}
+      propertyPath: 'dialogues.Array.data[0]'
+      value: In 2016, over the sarcophagus protecting the environment from radioactive
+        particles, another one was built - Shelter-2.
+      objectReference: {fileID: 0}
+    - target: {fileID: 6915643035512313567, guid: dca60a0ffcf0fde43bf4158d4319103d, type: 3}
+      propertyPath: 'dialogues.Array.data[1]'
+      value: 'The old one, built in 1986, was designed for 20-40 years, but due to
+        the high risk of its destruction, it was decided to build a new one. '
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

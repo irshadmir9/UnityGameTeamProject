@@ -2815,23 +2815,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9162504083908496922, guid: 391074b21edc26346a066cc5671c11ac, type: 3}
       propertyPath: dialogues.Array.size
-      value: 4
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 9162504083908496922, guid: 391074b21edc26346a066cc5671c11ac, type: 3}
       propertyPath: 'dialogues.Array.data[0]'
-      value: Hey friend, this is a tutorial.
+      value: Go up the stairs and go to the crowbar icon
       objectReference: {fileID: 0}
     - target: {fileID: 9162504083908496922, guid: 391074b21edc26346a066cc5671c11ac, type: 3}
       propertyPath: 'dialogues.Array.data[1]'
-      value: You will need to escape Chernobyl.
+      value: You will be able to use the crowbar to break the metal obstacle
       objectReference: {fileID: 0}
     - target: {fileID: 9162504083908496922, guid: 391074b21edc26346a066cc5671c11ac, type: 3}
       propertyPath: 'dialogues.Array.data[2]'
-      value: There will be multiple checkpoints in each level.
+      value: Press L to launch the crowbar snd go through all the checkpoints
       objectReference: {fileID: 0}
     - target: {fileID: 9162504083908496922, guid: 391074b21edc26346a066cc5671c11ac, type: 3}
       propertyPath: 'dialogues.Array.data[3]'
-      value: Go to the flag in the middle of the map and interact with it.
+      value: 
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

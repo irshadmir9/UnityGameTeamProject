@@ -497,6 +497,23 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6915643035512313567, guid: dca60a0ffcf0fde43bf4158d4319103d, type: 3}
+      propertyPath: dialogues.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6915643035512313567, guid: dca60a0ffcf0fde43bf4158d4319103d, type: 3}
+      propertyPath: 'dialogues.Array.data[0]'
+      value: Local authorities kept this incident in the secret for around two days.
+      objectReference: {fileID: 0}
+    - target: {fileID: 6915643035512313567, guid: dca60a0ffcf0fde43bf4158d4319103d, type: 3}
+      propertyPath: 'dialogues.Array.data[1]'
+      value: "They didn\u2019t want the whole world to know that such a huge catastrophe
+        happened in the Soviet Union. "
+      objectReference: {fileID: 0}
+    - target: {fileID: 6915643035512313567, guid: dca60a0ffcf0fde43bf4158d4319103d, type: 3}
+      propertyPath: 'dialogues.Array.data[2]'
+      value: Local authorities kept this incident in the secret for around two days.
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -579,6 +596,30 @@ PrefabInstance:
     - target: {fileID: 5036109392322459436, guid: dca60a0ffcf0fde43bf4158d4319103d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6915643035512313567, guid: dca60a0ffcf0fde43bf4158d4319103d, type: 3}
+      propertyPath: dialogues.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 6915643035512313567, guid: dca60a0ffcf0fde43bf4158d4319103d, type: 3}
+      propertyPath: 'dialogues.Array.data[0]'
+      value: 'As a result of the explosion of the Chernobyl Nuclear Power Plant, '
+      objectReference: {fileID: 0}
+    - target: {fileID: 6915643035512313567, guid: dca60a0ffcf0fde43bf4158d4319103d, type: 3}
+      propertyPath: 'dialogues.Array.data[1]'
+      value: there was a radioactive release capacity of about 50 million curies.
+      objectReference: {fileID: 0}
+    - target: {fileID: 6915643035512313567, guid: dca60a0ffcf0fde43bf4158d4319103d, type: 3}
+      propertyPath: 'dialogues.Array.data[2]'
+      value: 'This is equivalent to the explosion of 500 atomic bombs, '
+      objectReference: {fileID: 0}
+    - target: {fileID: 6915643035512313567, guid: dca60a0ffcf0fde43bf4158d4319103d, type: 3}
+      propertyPath: 'dialogues.Array.data[3]'
+      value: 'like those that were dropped on Japan. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 6915643035512313567, guid: dca60a0ffcf0fde43bf4158d4319103d, type: 3}
+      propertyPath: 'dialogues.Array.data[4]'
+      value: 'As a result of the explosion of the Chernobyl Nuclear Power Plant, '
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -886,6 +927,29 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6915643035512313567, guid: dca60a0ffcf0fde43bf4158d4319103d, type: 3}
+      propertyPath: dialogues.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 6915643035512313567, guid: dca60a0ffcf0fde43bf4158d4319103d, type: 3}
+      propertyPath: 'dialogues.Array.data[0]'
+      value: '800,000 soviet people took the risk and were exposed to radiation,
+        eliminating the consequences of the disaster. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 6915643035512313567, guid: dca60a0ffcf0fde43bf4158d4319103d, type: 3}
+      propertyPath: 'dialogues.Array.data[1]'
+      value: 'Unfortunately, 25,000 of them died, another 70,000 became disabled. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 6915643035512313567, guid: dca60a0ffcf0fde43bf4158d4319103d, type: 3}
+      propertyPath: 'dialogues.Array.data[2]'
+      value: "In addition, the first victims were firefighters who didn\u2019t know
+        the nature of the accident."
+      objectReference: {fileID: 0}
+    - target: {fileID: 6915643035512313567, guid: dca60a0ffcf0fde43bf4158d4319103d, type: 3}
+      propertyPath: 'dialogues.Array.data[3]'
+      value: 'They did their work without any protection from radiation. A few days
+        later they all died. '
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1146,6 +1210,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6915643035512313567, guid: dca60a0ffcf0fde43bf4158d4319103d, type: 3}
+      propertyPath: dialogues.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6915643035512313567, guid: dca60a0ffcf0fde43bf4158d4319103d, type: 3}
+      propertyPath: 'dialogues.Array.data[0]'
+      value: Over 200,000 people were evacuated from the affected area.
+      objectReference: {fileID: 0}
+    - target: {fileID: 6915643035512313567, guid: dca60a0ffcf0fde43bf4158d4319103d, type: 3}
+      propertyPath: 'dialogues.Array.data[1]'
+      value: 'Almost none of them returned home. '
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1372,6 +1448,24 @@ PrefabInstance:
     - target: {fileID: 5421525384183408681, guid: dca60a0ffcf0fde43bf4158d4319103d, type: 3}
       propertyPath: m_LocalPosition.y
       value: -1.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6915643035512313567, guid: dca60a0ffcf0fde43bf4158d4319103d, type: 3}
+      propertyPath: dialogues.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6915643035512313567, guid: dca60a0ffcf0fde43bf4158d4319103d, type: 3}
+      propertyPath: 'dialogues.Array.data[0]'
+      value: 'On the first day after the accident, radiation sickness was found in
+        134 people. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 6915643035512313567, guid: dca60a0ffcf0fde43bf4158d4319103d, type: 3}
+      propertyPath: 'dialogues.Array.data[1]'
+      value: All of them were either liquidators or employees of the Chernobyl NPP.
+      objectReference: {fileID: 0}
+    - target: {fileID: 6915643035512313567, guid: dca60a0ffcf0fde43bf4158d4319103d, type: 3}
+      propertyPath: 'dialogues.Array.data[2]'
+      value: 'In total, as a result of the Chernobyl disaster, about 8.5 million
+        people suffered from radiation sickness. '
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5954,19 +6048,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9162504083908496922, guid: 391074b21edc26346a066cc5671c11ac, type: 3}
       propertyPath: dialogues.Array.size
-      value: 4
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 9162504083908496922, guid: 391074b21edc26346a066cc5671c11ac, type: 3}
       propertyPath: 'dialogues.Array.data[0]'
-      value: Hey friend, this is a tutorial.
+      value: 'Go through all the check points '
       objectReference: {fileID: 0}
     - target: {fileID: 9162504083908496922, guid: 391074b21edc26346a066cc5671c11ac, type: 3}
       propertyPath: 'dialogues.Array.data[1]'
-      value: You will need to escape Chernobyl.
+      value: Collect the health boost
       objectReference: {fileID: 0}
     - target: {fileID: 9162504083908496922, guid: 391074b21edc26346a066cc5671c11ac, type: 3}
       propertyPath: 'dialogues.Array.data[2]'
-      value: There will be multiple checkpoints in each level.
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 9162504083908496922, guid: 391074b21edc26346a066cc5671c11ac, type: 3}
       propertyPath: 'dialogues.Array.data[3]'

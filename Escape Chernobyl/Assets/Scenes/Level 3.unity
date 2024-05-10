@@ -517,6 +517,10 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: -0.55
       objectReference: {fileID: 0}
+    - target: {fileID: 6915643035512313567, guid: dca60a0ffcf0fde43bf4158d4319103d, type: 3}
+      propertyPath: dialogues.Array.size
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -740,19 +744,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9162504083908496922, guid: 391074b21edc26346a066cc5671c11ac, type: 3}
       propertyPath: 'dialogues.Array.data[0]'
-      value: Hey friend, this is a tutorial.
+      value: Go to the top of the level and equip the axe
       objectReference: {fileID: 0}
     - target: {fileID: 9162504083908496922, guid: 391074b21edc26346a066cc5671c11ac, type: 3}
       propertyPath: 'dialogues.Array.data[1]'
-      value: You will need to escape Chernobyl.
+      value: Use the axe to break the wooden obstacle
       objectReference: {fileID: 0}
     - target: {fileID: 9162504083908496922, guid: 391074b21edc26346a066cc5671c11ac, type: 3}
       propertyPath: 'dialogues.Array.data[2]'
-      value: There will be multiple checkpoints in each level.
+      value: Collect the health boost and do not fall into the radiation
       objectReference: {fileID: 0}
     - target: {fileID: 9162504083908496922, guid: 391074b21edc26346a066cc5671c11ac, type: 3}
       propertyPath: 'dialogues.Array.data[3]'
-      value: Go to the flag in the middle of the map and interact with it.
+      value: After going through all the checkpoints make your way back to escape
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -841,6 +845,24 @@ PrefabInstance:
     - target: {fileID: 5036109392322459436, guid: dca60a0ffcf0fde43bf4158d4319103d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6915643035512313567, guid: dca60a0ffcf0fde43bf4158d4319103d, type: 3}
+      propertyPath: dialogues.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6915643035512313567, guid: dca60a0ffcf0fde43bf4158d4319103d, type: 3}
+      propertyPath: 'dialogues.Array.data[0]'
+      value: 'Not far from Pripyat is situated the Red Forest, which is the most
+        radioactive forest in the world. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 6915643035512313567, guid: dca60a0ffcf0fde43bf4158d4319103d, type: 3}
+      propertyPath: 'dialogues.Array.data[1]'
+      value: After the accident, it was destroyed, but then the forest grew up again.
+      objectReference: {fileID: 0}
+    - target: {fileID: 6915643035512313567, guid: dca60a0ffcf0fde43bf4158d4319103d, type: 3}
+      propertyPath: 'dialogues.Array.data[2]'
+      value: ' It got its name due to the fact that the foliage and needles of trees
+        became red after the accident.'
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1487,6 +1509,15 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6915643035512313567, guid: dca60a0ffcf0fde43bf4158d4319103d, type: 3}
+      propertyPath: dialogues.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6915643035512313567, guid: dca60a0ffcf0fde43bf4158d4319103d, type: 3}
+      propertyPath: 'dialogues.Array.data[0]'
+      value: 'The famous rock band Pink Floyd in 2014 shot a clip in the Chernobyl
+        Exclusion Zone, in the city of Pripyat. '
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1702,6 +1733,23 @@ PrefabInstance:
     - target: {fileID: 5036109392322459436, guid: dca60a0ffcf0fde43bf4158d4319103d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6915643035512313567, guid: dca60a0ffcf0fde43bf4158d4319103d, type: 3}
+      propertyPath: dialogues.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6915643035512313567, guid: dca60a0ffcf0fde43bf4158d4319103d, type: 3}
+      propertyPath: 'dialogues.Array.data[0]'
+      value: The presence of americium in the environment is constantly increasing.
+      objectReference: {fileID: 0}
+    - target: {fileID: 6915643035512313567, guid: dca60a0ffcf0fde43bf4158d4319103d, type: 3}
+      propertyPath: 'dialogues.Array.data[1]'
+      value: The highest concentration of americium will be reached by 2058.
+      objectReference: {fileID: 0}
+    - target: {fileID: 6915643035512313567, guid: dca60a0ffcf0fde43bf4158d4319103d, type: 3}
+      propertyPath: 'dialogues.Array.data[2]'
+      value: ' Also, all the plants grown in contaminated areas have serious generative
+        mutations. '
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4804,7 +4852,7 @@ Transform:
   m_GameObject: {fileID: 1671896987}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -14.63, y: -9.02, z: 0}
+  m_LocalPosition: {x: 17.02, y: -14.09, z: 0}
   m_LocalScale: {x: 7.832721, y: 5.747845, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:

@@ -17,7 +17,7 @@ public class PlayerMove : MonoBehaviour
 
     public Transform projectileSpawnPoint;
     public GameObject projectilePrefab;
-    public float projectileSpeed = 10;
+    public float projectileSpeed = 15;
 
     float horizontal;
     float vertical;

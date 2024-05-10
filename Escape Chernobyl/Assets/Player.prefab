@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 135242469973692034}
   - component: {fileID: -305737991460630408}
   - component: {fileID: 716282532295550426}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Player
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -81,6 +81,16 @@ MonoBehaviour:
   jumpForce: 15
   animator: {fileID: 135242469973692034}
   isJumping: 0
+  projectileSpawnPoint: {fileID: 0}
+  projectilePrefab: {fileID: 0}
+  projectileSpeed: 10
+  crowbar: 0
+  axe: 0
+  hammer: 0
+  maxHealth: 600
+  currentHealth: 600
+  DelayAmount: 1
+  flag: 0
 --- !u!212 &2749560510734241767
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -217,7 +227,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1560664300324152765}
   - component: {fileID: 7315908159772510645}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Footsteps
   m_TagString: Untagged
   m_Icon: {fileID: 0}

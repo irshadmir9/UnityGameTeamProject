@@ -143,6 +143,10 @@ PrefabInstance:
       value: flag_0 (3)
       objectReference: {fileID: 0}
     - target: {fileID: 2996367174926145267, guid: dca60a0ffcf0fde43bf4158d4319103d, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1333490681}
+    - target: {fileID: 2996367174926145267, guid: dca60a0ffcf0fde43bf4158d4319103d, type: 3}
       propertyPath: flagcount
       value: 
       objectReference: {fileID: 1333490681}
@@ -210,6 +214,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: flag_0
       objectReference: {fileID: 0}
+    - target: {fileID: 2996367174926145267, guid: dca60a0ffcf0fde43bf4158d4319103d, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1333490681}
     - target: {fileID: 2996367174926145267, guid: dca60a0ffcf0fde43bf4158d4319103d, type: 3}
       propertyPath: flagcount
       value: 
@@ -372,7 +380,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogueScript: {fileID: 1735343207}
-  flagcount: {fileID: 1333490681}
+  player: {fileID: 1333490681}
 --- !u!212 &139951633
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -475,7 +483,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   DoorEnter: {fileID: 0}
-  flags: {fileID: 1333490681}
+  enough: 0
 --- !u!61 &166073284
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1327,7 +1335,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 2
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_BackGroundColor: {r: 0.08953363, g: 0.09140262, b: 0.09433961, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -1395,6 +1403,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: flag_0 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 2996367174926145267, guid: dca60a0ffcf0fde43bf4158d4319103d, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1333490681}
     - target: {fileID: 2996367174926145267, guid: dca60a0ffcf0fde43bf4158d4319103d, type: 3}
       propertyPath: flagcount
       value: 
@@ -1792,6 +1804,10 @@ PrefabInstance:
       value: flag_0 (2)
       objectReference: {fileID: 0}
     - target: {fileID: 2996367174926145267, guid: dca60a0ffcf0fde43bf4158d4319103d, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1333490681}
+    - target: {fileID: 2996367174926145267, guid: dca60a0ffcf0fde43bf4158d4319103d, type: 3}
       propertyPath: flagcount
       value: 
       objectReference: {fileID: 1333490681}
@@ -1859,6 +1875,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: flag_0 (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 2996367174926145267, guid: dca60a0ffcf0fde43bf4158d4319103d, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1333490681}
     - target: {fileID: 2996367174926145267, guid: dca60a0ffcf0fde43bf4158d4319103d, type: 3}
       propertyPath: flagcount
       value: 

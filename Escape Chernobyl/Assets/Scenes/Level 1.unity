@@ -226,7 +226,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   DoorEnter: {fileID: 815795516}
-  flags: {fileID: 2012176183}
+  enough: 0
 --- !u!61 &112894803
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -366,6 +366,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: flag_0 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 2996367174926145267, guid: dca60a0ffcf0fde43bf4158d4319103d, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 2012176183}
     - target: {fileID: 2996367174926145267, guid: dca60a0ffcf0fde43bf4158d4319103d, type: 3}
       propertyPath: flagcount
       value: 
@@ -1559,6 +1563,10 @@ PrefabInstance:
       value: flag_0 (3)
       objectReference: {fileID: 0}
     - target: {fileID: 2996367174926145267, guid: dca60a0ffcf0fde43bf4158d4319103d, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 2012176183}
+    - target: {fileID: 2996367174926145267, guid: dca60a0ffcf0fde43bf4158d4319103d, type: 3}
       propertyPath: flagcount
       value: 
       objectReference: {fileID: 2012176183}
@@ -2091,6 +2099,10 @@ PrefabInstance:
       value: flag_0 (1)
       objectReference: {fileID: 0}
     - target: {fileID: 2996367174926145267, guid: dca60a0ffcf0fde43bf4158d4319103d, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 2012176183}
+    - target: {fileID: 2996367174926145267, guid: dca60a0ffcf0fde43bf4158d4319103d, type: 3}
       propertyPath: flagcount
       value: 
       objectReference: {fileID: 2012176183}
@@ -2284,7 +2296,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogueScript: {fileID: 1313575543}
-  flagcount: {fileID: 2012176183}
+  player: {fileID: 2012176183}
 --- !u!212 &1074488037
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2367,6 +2379,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: flag_0 (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 2996367174926145267, guid: dca60a0ffcf0fde43bf4158d4319103d, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 2012176183}
     - target: {fileID: 2996367174926145267, guid: dca60a0ffcf0fde43bf4158d4319103d, type: 3}
       propertyPath: flagcount
       value: 
@@ -8429,6 +8445,10 @@ PrefabInstance:
       value: flag_0
       objectReference: {fileID: 0}
     - target: {fileID: 2996367174926145267, guid: dca60a0ffcf0fde43bf4158d4319103d, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 2012176183}
+    - target: {fileID: 2996367174926145267, guid: dca60a0ffcf0fde43bf4158d4319103d, type: 3}
       propertyPath: flagcount
       value: 
       objectReference: {fileID: 2012176183}
@@ -9050,11 +9070,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1212874244702484942, guid: ef6b6baaf61d8c043a57b3b1feca16cd, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -20.90593
+      value: -20.84
       objectReference: {fileID: 0}
     - target: {fileID: 1212874244702484942, guid: ef6b6baaf61d8c043a57b3b1feca16cd, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -14.509189
+      value: -14.65
       objectReference: {fileID: 0}
     - target: {fileID: 1212874244702484942, guid: ef6b6baaf61d8c043a57b3b1feca16cd, type: 3}
       propertyPath: m_LocalPosition.z
@@ -9103,6 +9123,14 @@ PrefabInstance:
     - target: {fileID: 5947878328292497383, guid: ef6b6baaf61d8c043a57b3b1feca16cd, type: 3}
       propertyPath: m_Name
       value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 5947878328292497383, guid: ef6b6baaf61d8c043a57b3b1feca16cd, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 7711166305279239051, guid: ef6b6baaf61d8c043a57b3b1feca16cd, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

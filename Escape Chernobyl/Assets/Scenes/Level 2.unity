@@ -446,6 +446,10 @@ PrefabInstance:
       value: flag_0 (3)
       objectReference: {fileID: 0}
     - target: {fileID: 2996367174926145267, guid: dca60a0ffcf0fde43bf4158d4319103d, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 2099246579}
+    - target: {fileID: 2996367174926145267, guid: dca60a0ffcf0fde43bf4158d4319103d, type: 3}
       propertyPath: flagcount
       value: 
       objectReference: {fileID: 2099246579}
@@ -524,6 +528,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: flag_0 (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 2996367174926145267, guid: dca60a0ffcf0fde43bf4158d4319103d, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 2099246579}
     - target: {fileID: 2996367174926145267, guid: dca60a0ffcf0fde43bf4158d4319103d, type: 3}
       propertyPath: flagcount
       value: 
@@ -698,7 +706,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   DoorEnter: {fileID: 0}
-  flags: {fileID: 2099246579}
+  enough: 0
 --- !u!61 &581323906
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -826,6 +834,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: flag_0
       objectReference: {fileID: 0}
+    - target: {fileID: 2996367174926145267, guid: dca60a0ffcf0fde43bf4158d4319103d, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 2099246579}
     - target: {fileID: 2996367174926145267, guid: dca60a0ffcf0fde43bf4158d4319103d, type: 3}
       propertyPath: flagcount
       value: 
@@ -999,7 +1011,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogueScript: {fileID: 2106200491}
-  flagcount: {fileID: 2099246579}
+  player: {fileID: 2099246579}
 --- !u!212 &677165771
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1082,6 +1094,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: flag_0 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 2996367174926145267, guid: dca60a0ffcf0fde43bf4158d4319103d, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 2099246579}
     - target: {fileID: 2996367174926145267, guid: dca60a0ffcf0fde43bf4158d4319103d, type: 3}
       propertyPath: flagcount
       value: 
@@ -1297,6 +1313,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: flag_0 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 2996367174926145267, guid: dca60a0ffcf0fde43bf4158d4319103d, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 2099246579}
     - target: {fileID: 2996367174926145267, guid: dca60a0ffcf0fde43bf4158d4319103d, type: 3}
       propertyPath: flagcount
       value: 
